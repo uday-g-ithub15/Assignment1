@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.half-width{
+    width: 40%;
+    /* margin-left: 5%; */
+    /* text-align: center; */
+
+}
+.header{
+    margin: 23px 0 20px 95px;
+    padding: 10px 12px;
+}
+.header-border{
+    border-left: 4px solid tomato;
+    padding: 0 5px;
+}
+.header h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text-color{
+    color: orange;
+}
+.header img{
+    width: 300px;
+    height: 400px;
+    margin-top: -30px;
+}
+.flex{
+    display: flex;
+}
+.paragraph{
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn{
+    display: block;
+    width: 200px;
+    height: 25px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    background-color: tomato;
+}
+.mission-content img{
+    width: 100px;
+    height: 100px;
+}
+.mission h2,h3{
+    font-weight: 900;
+    font-size: 24px;
+}
+.mission{
+    margin: 15px 100px;
+    padding: 10px;
+}
+.content-width{
+     width: 28%;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+
+.text-center{text-align: center;}
+.content-1{
+    background-color: aliceblue;
+}
+.content-2{background-color: aquamarine;}
+.content-3{background-color: aliceblue;}
+.develop img{
+    width: 250px;
+    height: 250px;
+}
+.develop{
+    margin: 23px 120px;
+    padding: 15px 120px;
+    background-image: url(images/shapes/shape-5.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 75px 95px;
+}
+.develop h1{
+    font-weight: 900;
+    font-size: 24px;
+}
+.global img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+.global{
+    margin: 36px 117px;
+    padding: 25px 136px;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 700px 302px;
+}
+.stuff img{
+    width: 200px;
+    height: 200px;
+}
+.stuff{
+    padding: 30px 0px;
+}
+.stuff-1{
+    margin: 0 155px;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(tomato,aqua,salmon,indigo);
+    border-image-slice: 1;
+}
+.stuff h1 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+footer{
+    background: black;
+    color: darkkhaki;
+    height: 135px;
+    text-align: center;
+    padding: 10px;
+}
